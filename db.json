@@ -1,71 +1,474 @@
 {
-    "countries": [
-      {
-        "id": 1,
-        "name": "USA",
-        "gold": 39,
-        "silver": 41,
-        "bronze": 33,
-        "capital": "Washington, D.C.",
-        "population": 331002651,
-        "continent": "North America",
-        "sports": [
-          { "name": "Swimming", "medals": 11 },
-          { "name": "Athletics", "medals": 14 },
-          { "name": "Gymnastics", "medals": 8 },
-          { "name": "Basketball", "medals": 4 },
-          { "name": "Wrestling", "medals": 2 }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "China",
-        "gold": 38,
-        "silver": 32,
-        "bronze": 18,
-        "capital": "Beijing",
-        "population": 1439323776,
-        "continent": "Asia",
-        "sports": [
-          { "name": "Table Tennis", "medals": 7 },
-          { "name": "Badminton", "medals": 8 },
-          { "name": "Diving", "medals": 6 },
-          { "name": "Shooting", "medals": 5 },
-          { "name": "Weightlifting", "medals": 4 }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Japan",
-        "gold": 27,
-        "silver": 14,
-        "bronze": 17,
-        "capital": "Tokyo",
-        "population": 126476461,
-        "continent": "Asia",
-        "sports": [
-          { "name": "Judo", "medals": 10 },
-          { "name": "Swimming", "medals": 7 },
-          { "name": "Skateboarding", "medals": 4 },
-          { "name": "Baseball", "medals": 3 },
-          { "name": "Gymnastics", "medals": 3 }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Australia",
-        "gold": 17,
-        "silver": 7,
-        "bronze": 22,
-        "capital": "Canberra",
-        "population": 25687041,
-        "continent": "Oceania",
-        "sports": [
-          { "name": "Swimming", "medals": 7 },
-          { "name": "Rowing", "medals": 5 },
-          { "name": "Athletics", "medals": 3 },
-          { "name": "Cycling", "medals": 2 }
-        ]
-      }
-    ]
-  }
+  "countries": [
+    {
+      "id": 1,
+      "name": "USA",
+      "gold": 39,
+      "silver": 41,
+      "bronze": 33,
+      "capital": "Washington, D.C.",
+      "population": 331002651,
+      "continent": "North America",
+      "sports": [
+        { "name": "Swimming", "medals": 11 },
+        { "name": "Athletics", "medals": 14 },
+        { "name": "Gymnastics", "medals": 8 },
+        { "name": "Basketball", "medals": 4 },
+        { "name": "Wrestling", "medals": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "China",
+      "gold": 38,
+      "silver": 32,
+      "bronze": 18,
+      "capital": "Beijing",
+      "population": 1439323776,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Table Tennis", "medals": 7 },
+        { "name": "Badminton", "medals": 8 },
+        { "name": "Diving", "medals": 6 },
+        { "name": "Shooting", "medals": 5 },
+        { "name": "Weightlifting", "medals": 4 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Japan",
+      "gold": 27,
+      "silver": 14,
+      "bronze": 17,
+      "capital": "Tokyo",
+      "population": 126476461,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Judo", "medals": 10 },
+        { "name": "Swimming", "medals": 7 },
+        { "name": "Skateboarding", "medals": 4 },
+        { "name": "Baseball", "medals": 3 },
+        { "name": "Gymnastics", "medals": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Australia",
+      "gold": 17,
+      "silver": 7,
+      "bronze": 22,
+      "capital": "Canberra",
+      "population": 25687041,
+      "continent": "Oceania",
+      "sports": [
+        { "name": "Swimming", "medals": 7 },
+        { "name": "Rowing", "medals": 5 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Cycling", "medals": 2 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Russia",
+      "gold": 20,
+      "silver": 28,
+      "bronze": 23,
+      "capital": "Moscow",
+      "population": 144104080,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Gymnastics", "medals": 9 },
+        { "name": "Wrestling", "medals": 6 },
+        { "name": "Fencing", "medals": 5 },
+        { "name": "Shooting", "medals": 3 },
+        { "name": "Swimming", "medals": 4 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Great Britain",
+      "gold": 22,
+      "silver": 21,
+      "bronze": 22,
+      "capital": "London",
+      "population": 67886011,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Cycling", "medals": 7 },
+        { "name": "Athletics", "medals": 6 },
+        { "name": "Swimming", "medals": 5 },
+        { "name": "Rowing", "medals": 4 }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Germany",
+      "gold": 10,
+      "silver": 11,
+      "bronze": 16,
+      "capital": "Berlin",
+      "population": 83783942,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Cycling", "medals": 5 },
+        { "name": "Rowing", "medals": 4 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Equestrian", "medals": 4 }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "India",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 4,
+      "capital": "New Delhi",
+      "population": 1380004385,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Wrestling", "medals": 2 },
+        { "name": "Badminton", "medals": 1 },
+        { "name": "Hockey", "medals": 1 },
+        { "name": "Boxing", "medals": 1 }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Brazil",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 8,
+      "capital": "Brasília",
+      "population": 212559417,
+      "continent": "South America",
+      "sports": [
+        { "name": "Football", "medals": 2 },
+        { "name": "Volleyball", "medals": 3 },
+        { "name": "Judo", "medals": 2 },
+        { "name": "Athletics", "medals": 1 }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Canada",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 11,
+      "capital": "Ottawa",
+      "population": 37742154,
+      "continent": "North America",
+      "sports": [
+        { "name": "Swimming", "medals": 5 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Rowing", "medals": 2 },
+        { "name": "Cycling", "medals": 1 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Italy",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 20,
+      "capital": "Rome",
+      "population": 60244639,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Fencing", "medals": 5 },
+        { "name": "Athletics", "medals": 4 },
+        { "name": "Cycling", "medals": 4 },
+        { "name": "Rowing", "medals": 3 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "France",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 11,
+      "capital": "Paris",
+      "population": 65273511,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Judo", "medals": 5 },
+        { "name": "Athletics", "medals": 4 },
+        { "name": "Fencing", "medals": 4 },
+        { "name": "Cycling", "medals": 2 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Netherlands",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 14,
+      "capital": "Amsterdam",
+      "population": 17134872,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Cycling", "medals": 6 },
+        { "name": "Rowing", "medals": 4 },
+        { "name": "Swimming", "medals": 3 },
+        { "name": "Hockey", "medals": 3 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "South Korea",
+      "gold": 6,
+      "silver": 4,
+      "bronze": 10,
+      "capital": "Seoul",
+      "population": 51269185,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Archery", "medals": 4 },
+        { "name": "Taekwondo", "medals": 3 },
+        { "name": "Fencing", "medals": 3 },
+        { "name": "Shooting", "medals": 2 }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Spain",
+      "gold": 3,
+      "silver": 8,
+      "bronze": 6,
+      "capital": "Madrid",
+      "population": 46754778,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Taekwondo", "medals": 2 },
+        { "name": "Cycling", "medals": 1 },
+        { "name": "Sailing", "medals": 1 }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sweden",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 0,
+      "capital": "Stockholm",
+      "population": 10327589,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Wrestling", "medals": 2 },
+        { "name": "Sailing", "medals": 1 }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Norway",
+      "gold": 4,
+      "silver": 2,
+      "bronze": 2,
+      "capital": "Oslo",
+      "population": 5421241,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 2 },
+        { "name": "Wrestling", "medals": 2 },
+        { "name": "Shooting", "medals": 1 },
+        { "name": "Rowing", "medals": 1 }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "New Zealand",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 7,
+      "capital": "Wellington",
+      "population": 5084300,
+      "continent": "Oceania",
+      "sports": [
+        { "name": "Rowing", "medals": 5 },
+        { "name": "Rugby", "medals": 2 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Cycling", "medals": 2 }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Denmark",
+      "gold": 3,
+      "silver": 4,
+      "bronze": 4,
+      "capital": "Copenhagen",
+      "population": 5831404,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Rowing", "medals": 3 },
+        { "name": "Cycling", "medals": 4 },
+        { "name": "Sailing", "medals": 2 },
+        { "name": "Badminton", "medals": 2 }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Kenya",
+      "gold": 4,
+      "silver": 4,
+      "bronze": 2,
+      "capital": "Nairobi",
+      "population": 53771296,
+      "continent": "Africa",
+      "sports": [
+        { "name": "Athletics", "medals": 8 },
+        { "name": "Boxing", "medals": 2 }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Turkey",
+      "gold": 2,
+      "silver": 2,
+      "bronze": 9,
+      "capital": "Ankara",
+      "population": 84339067,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Wrestling", "medals": 5 },
+        { "name": "Taekwondo", "medals": 4 },
+        { "name": "Boxing", "medals": 4 }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Hungary",
+      "gold": 6,
+      "silver": 7,
+      "bronze": 7,
+      "capital": "Budapest",
+      "population": 9634163,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Swimming", "medals": 6 },
+        { "name": "Fencing", "medals": 5 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Wrestling", "medals": 2 }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Poland",
+      "gold": 4,
+      "silver": 5,
+      "bronze": 5,
+      "capital": "Warsaw",
+      "population": 38386000,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 7 },
+        { "name": "Wrestling", "medals": 3 },
+        { "name": "Canoeing", "medals": 2 }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Argentina",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 2,
+      "capital": "Buenos Aires",
+      "population": 45195774,
+      "continent": "South America",
+      "sports": [
+        { "name": "Football", "medals": 3 },
+        { "name": "Rugby", "medals": 2 },
+        { "name": "Athletics", "medals": 2 }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "South Africa",
+      "gold": 3,
+      "silver": 2,
+      "bronze": 0,
+      "capital": "Pretoria",
+      "population": 59308690,
+      "continent": "Africa",
+      "sports": [
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Rugby", "medals": 2 }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Mexico",
+      "gold": 0,
+      "silver": 4,
+      "bronze": 2,
+      "capital": "Mexico City",
+      "population": 128932753,
+      "continent": "North America",
+      "sports": [
+        { "name": "Boxing", "medals": 3 },
+        { "name": "Athletics", "medals": 2 },
+        { "name": "Diving", "medals": 1 }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cuba",
+      "gold": 7,
+      "silver": 3,
+      "bronze": 5,
+      "capital": "Havana",
+      "population": 11326616,
+      "continent": "North America",
+      "sports": [
+        { "name": "Boxing", "medals": 6 },
+        { "name": "Wrestling", "medals": 3 },
+        { "name": "Athletics", "medals": 2 }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Thailand",
+      "gold": 1,
+      "silver": 0,
+      "bronze": 1,
+      "capital": "Bangkok",
+      "population": 69799978,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Boxing", "medals": 1 },
+        { "name": "Taekwondo", "medals": 1 }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Belgium",
+      "gold": 3,
+      "silver": 1,
+      "bronze": 3,
+      "capital": "Brussels",
+      "population": 11589623,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Cycling", "medals": 2 },
+        { "name": "Hockey", "medals": 2 }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Portugal",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "capital": "Lisbon",
+      "population": 10196709,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Athletics", "medals": 2 },
+        { "name": "Canoeing", "medals": 1 },
+        { "name": "Cycling", "medals": 1 }
+      ]
+    }
+  ]
+}
