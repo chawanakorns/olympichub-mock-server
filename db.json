@@ -1,0 +1,71 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "USA",
+        "gold": 39,
+        "silver": 41,
+        "bronze": 33,
+        "capital": "Washington, D.C.",
+        "population": 331002651,
+        "continent": "North America",
+        "sports": [
+          { "name": "Swimming", "medals": 11 },
+          { "name": "Athletics", "medals": 14 },
+          { "name": "Gymnastics", "medals": 8 },
+          { "name": "Basketball", "medals": 4 },
+          { "name": "Wrestling", "medals": 2 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "China",
+        "gold": 38,
+        "silver": 32,
+        "bronze": 18,
+        "capital": "Beijing",
+        "population": 1439323776,
+        "continent": "Asia",
+        "sports": [
+          { "name": "Table Tennis", "medals": 7 },
+          { "name": "Badminton", "medals": 8 },
+          { "name": "Diving", "medals": 6 },
+          { "name": "Shooting", "medals": 5 },
+          { "name": "Weightlifting", "medals": 4 }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Japan",
+        "gold": 27,
+        "silver": 14,
+        "bronze": 17,
+        "capital": "Tokyo",
+        "population": 126476461,
+        "continent": "Asia",
+        "sports": [
+          { "name": "Judo", "medals": 10 },
+          { "name": "Swimming", "medals": 7 },
+          { "name": "Skateboarding", "medals": 4 },
+          { "name": "Baseball", "medals": 3 },
+          { "name": "Gymnastics", "medals": 3 }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Australia",
+        "gold": 17,
+        "silver": 7,
+        "bronze": 22,
+        "capital": "Canberra",
+        "population": 25687041,
+        "continent": "Oceania",
+        "sports": [
+          { "name": "Swimming", "medals": 7 },
+          { "name": "Rowing", "medals": 5 },
+          { "name": "Athletics", "medals": 3 },
+          { "name": "Cycling", "medals": 2 }
+        ]
+      }
+    ]
+  }
