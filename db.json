@@ -163,6 +163,38 @@
         { "name": "Rowing", "medals": 2 },
         { "name": "Cycling", "medals": 1 }
       ]
+    },
+    {
+      "id": 11,
+      "name": "Italy",
+      "gold": 10,
+      "silver": 10,
+      "bronze": 20,
+      "capital": "Rome",
+      "population": 60244639,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Fencing", "medals": 5 },
+        { "name": "Athletics", "medals": 4 },
+        { "name": "Cycling", "medals": 4 },
+        { "name": "Rowing", "medals": 3 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "France",
+      "gold": 10,
+      "silver": 12,
+      "bronze": 11,
+      "capital": "Paris",
+      "population": 65273511,
+      "continent": "Europe",
+      "sports": [
+        { "name": "Judo", "medals": 5 },
+        { "name": "Athletics", "medals": 4 },
+        { "name": "Fencing", "medals": 4 },
+        { "name": "Cycling", "medals": 2 }
+      ]
     }
   ]
 }
