@@ -40,43 +40,6 @@
     },
     {
       "id": 3,
-      "name": "Japan",
-      "code": "jp",
-      "gold": 27,
-      "silver": 14,
-      "bronze": 17,
-      "total": 55,
-      "capital": "Tokyo",
-      "population": 126476461,
-      "continent": "Asia",
-      "sports": [
-        { "name": "Judo", "medals": 10 },
-        { "name": "Swimming", "medals": 7 },
-        { "name": "Skateboarding", "medals": 4 },
-        { "name": "Baseball", "medals": 3 },
-        { "name": "Gymnastics", "medals": 3 }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Australia",
-      "code": "au",
-      "gold": 17,
-      "silver": 7,
-      "bronze": 22,
-      "total": 46,
-      "capital": "Canberra",
-      "population": 25687041,
-      "continent": "Oceania",
-      "sports": [
-        { "name": "Swimming", "medals": 7 },
-        { "name": "Rowing", "medals": 5 },
-        { "name": "Athletics", "medals": 3 },
-        { "name": "Cycling", "medals": 2 }
-      ]
-    },
-    {
-      "id": 5,
       "name": "Russia",
       "code": "ru",
       "gold": 20,
@@ -95,7 +58,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 4,
       "name": "Great Britain",
       "code": "gb",
       "gold": 22,
@@ -112,6 +75,44 @@
         { "name": "Rowing", "medals": 4 }
       ]
     },
+    {
+      "id": 5,
+      "name": "Japan",
+      "code": "jp",
+      "gold": 27,
+      "silver": 14,
+      "bronze": 17,
+      "total": 55,
+      "capital": "Tokyo",
+      "population": 126476461,
+      "continent": "Asia",
+      "sports": [
+        { "name": "Judo", "medals": 10 },
+        { "name": "Swimming", "medals": 7 },
+        { "name": "Skateboarding", "medals": 4 },
+        { "name": "Baseball", "medals": 3 },
+        { "name": "Gymnastics", "medals": 3 }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Australia",
+      "code": "au",
+      "gold": 17,
+      "silver": 7,
+      "bronze": 22,
+      "total": 46,
+      "capital": "Canberra",
+      "population": 25687041,
+      "continent": "Oceania",
+      "sports": [
+        { "name": "Swimming", "medals": 7 },
+        { "name": "Rowing", "medals": 5 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Cycling", "medals": 2 }
+      ]
+    }
+    ,
     {
       "id": 7,
       "name": "Germany",
@@ -132,20 +133,20 @@
     },
     {
       "id": 8,
-      "name": "India",
-      "code": "in",
-      "gold": 1,
-      "silver": 2,
-      "bronze": 4,
-      "total": 7,
-      "capital": "New Delhi",
-      "population": 1380004385,
-      "continent": "Asia",
+      "name": "Canada",
+      "code": "ca",
+      "gold": 7,
+      "silver": 6,
+      "bronze": 11,
+      "total": 24,
+      "capital": "Ottawa",
+      "population": 37742154,
+      "continent": "North America",
       "sports": [
-        { "name": "Wrestling", "medals": 2 },
-        { "name": "Badminton", "medals": 1 },
-        { "name": "Hockey", "medals": 1 },
-        { "name": "Boxing", "medals": 1 }
+        { "name": "Swimming", "medals": 5 },
+        { "name": "Athletics", "medals": 3 },
+        { "name": "Rowing", "medals": 2 },
+        { "name": "Cycling", "medals": 1 }
       ]
     },
     {
@@ -168,20 +169,20 @@
     },
     {
       "id": 10,
-      "name": "Canada",
-      "code": "ca",
-      "gold": 7,
-      "silver": 6,
-      "bronze": 11,
-      "total": 24,
-      "capital": "Ottawa",
-      "population": 37742154,
-      "continent": "North America",
+      "name": "India",
+      "code": "in",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 4,
+      "total": 7,
+      "capital": "New Delhi",
+      "population": 1380004385,
+      "continent": "Asia",
       "sports": [
-        { "name": "Swimming", "medals": 5 },
-        { "name": "Athletics", "medals": 3 },
-        { "name": "Rowing", "medals": 2 },
-        { "name": "Cycling", "medals": 1 }
+        { "name": "Wrestling", "medals": 2 },
+        { "name": "Badminton", "medals": 1 },
+        { "name": "Hockey", "medals": 1 },
+        { "name": "Boxing", "medals": 1 }
       ]
     }
   ]
